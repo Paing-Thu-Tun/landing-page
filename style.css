@@ -146,7 +146,13 @@ button {
     font-weight: lighter;
 }
 
-
 .action-button {
     border: 1px solid #FBFBFB;
+}
+
+.footer {
+    background-color: #1F2837;
+    text-align: center;
+    padding: 50px;
+    color: #d1d1d1;
 }

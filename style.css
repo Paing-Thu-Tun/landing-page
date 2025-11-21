@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
 }
 
 .hero-section {
     background-color: #1F2837;
-    font-family: 'Roboto';
     padding-bottom: 20px;
 }
 
@@ -77,3 +77,21 @@ button {
     align-items: center;
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 120px 320px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: right;
+    padding-right: 30px;
+}

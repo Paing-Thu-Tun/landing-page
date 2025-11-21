@@ -61,7 +61,7 @@ button {
     border: 1px solid #3882F6;
     color: #FBFBFB;
     font-size: 1.1em;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 10px;
 }
 
@@ -77,6 +77,35 @@ button {
     align-items: center;
 }
 
+.info-section {
+    padding: 50px 320px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-container {
+    width: 150px;
+    text-align: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
 .quote-section {
     background-color: #E5E7EB;
     padding: 120px 320px;
@@ -87,6 +116,7 @@ button {
     color: #1F2937;
     font-weight: 300;
     margin-bottom: 5px;
+    text-align: left;
 }
 
 .author {
@@ -94,4 +124,29 @@ button {
     font-size: 1.2em;
     text-align: right;
     padding-right: 30px;
+}
+
+.action-section {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+    padding: 50px 120px;
+    border-radius: 8px;
+}
+
+.action-primary {
+    color: #F9FAF8;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.action-secondary {
+    color: #E1F1f1;
+    font-weight: lighter;
+}
+
+
+.action-button {
+    border: 1px solid #FBFBFB;
 }
